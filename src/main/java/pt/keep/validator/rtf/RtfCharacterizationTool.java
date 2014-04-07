@@ -1,4 +1,4 @@
-package pt.keep.validator;
+package pt.keep.validator.rtf;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
@@ -14,8 +14,8 @@ import org.apache.commons.cli.GnuParser;
 import org.apache.commons.cli.HelpFormatter;
 import org.apache.commons.cli.Options;
 
-import pt.keep.validator.result.Result;
-import pt.keep.validator.result.ValidationInfo;
+import pt.keep.validator.rtf.result.Result;
+import pt.keep.validator.rtf.result.ValidationInfo;
 
 import com.rtfparserkit.parser.RtfStreamSource;
 import com.rtfparserkit.parser.standard.StandardRtfParser;
@@ -37,7 +37,7 @@ public class RtfCharacterizationTool {
 			jaxbMarshaller.marshal(res, bos);
 			return bos.toString("UTF-8");
 		} catch (Exception e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 		}
 		return null;
 	}

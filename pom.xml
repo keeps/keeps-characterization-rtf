@@ -37,7 +37,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>pt.keep.validator.RtfCharacterizationTool</mainClass>
+							<mainClass>pt.keep.validator.rtf.RtfCharacterizationTool</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>

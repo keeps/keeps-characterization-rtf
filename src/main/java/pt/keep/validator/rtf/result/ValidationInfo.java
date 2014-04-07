@@ -1,4 +1,4 @@
-package pt.keep.validator.result;
+package pt.keep.validator.rtf.result;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
